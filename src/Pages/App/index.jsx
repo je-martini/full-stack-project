@@ -11,12 +11,12 @@ import "./index.css"
 const AppRoutes = () => {
 
   let routes = useRoutes([
-    { path: '/',  element: <Home />},
-    { path: '/my-account',  element: <MyAccount />},
-    { path: '/my-order',  element: <MyOrder />},
-    { path: '/my-orders',  element: <MyOrders />},
-    { path: '/*',  element: <NotFound />},
-    { path: '/sign-in',  element: <SignIn />},
+    { path: 'https://full-stack-project-liart.vercel.app/',  element: <Home />},
+    { path: 'https://full-stack-project-liart.vercel.app/my-account',  element: <MyAccount />},
+    { path: 'https://full-stack-project-liart.vercel.app/my-order',  element: <MyOrder />},
+    { path: 'https://full-stack-project-liart.vercel.app/my-orders',  element: <MyOrders />},
+    { path: 'https://full-stack-project-liart.vercel.app/*',  element: <NotFound />},
+    { path: 'https://full-stack-project-liart.vercel.app/sign-in',  element: <SignIn />},
   ])
 
   return routes
